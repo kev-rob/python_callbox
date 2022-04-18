@@ -22,10 +22,10 @@ def exit():
 
 app = App(title="Help Callbox", bg="white")
 
-left_pad = Box(app, align="left", height="fill", width=20)
-right_pad = Box(app, align="right", height="fill", width=20)
-top_pad = Box(app, align="top", width="fill", height=20)
-bottom_pad = Box(app, align="bottom", width="fill", height=20)
+left_pad = Box(app, align="left", height="fill", width=5)
+right_pad = Box(app, align="right", height="fill", width=5)
+top_pad = Box(app, align="top", width="fill", height=5)
+bottom_pad = Box(app, align="bottom", width="fill", height=5)
 title_box = Box(app, width="fill", align="top")
 wordmark = Picture(title_box, image="static/banner.png", align="left")
 help_text1 = Text(app, text="\rDo you need assistance?\r\r", color="#0e67b5", size="18")
