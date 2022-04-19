@@ -1,4 +1,5 @@
-import os, keyboard
+import os
+from pynput.keyboard import Key, Controller
 from guizero import App, PushButton, Picture, Text, Box
 
 def help():
@@ -17,8 +18,13 @@ def cancel():
     help_text1.show()
     help_text2.show()
 
+keyboard = Controller()
+
 def exit():
-    keyboard.press_and_release('alt+F4')
+    keyboard.press(Key.alt_l)
+    keyboard.press(Key.f4)
+    keyboard.release(Key.alt_l)
+    keyboard.release(Key.f4)
 
 app = App(title="Help Callbox", bg="white")
 
