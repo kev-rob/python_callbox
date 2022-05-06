@@ -1,13 +1,16 @@
-# Callbox for Messaging Applications
+# Callbox for Messaging Applications <a href="https://www.buymeacoffee.com/kevinrobert"> <img align="right" src="https://storage.googleapis.com/www-trabant-tech-com/BuyMeACoffee.png"></a>
+
 A modern alternative to ringing a bell for service, this callbox application alerts **Slack** or **Google Chat** when a person presses a button for help.  
 
 This Python application was originally written to run on a Raspberry Pi with an attached touchscreen to request support at an IT Help Desk. The following videos demonstrate this type of implementation, interacting with the respective messaging applications via iPad.
 
 **Slack:** https://youtu.be/wFE2QAVsd6c
 
-**Google:** https://youtu.be/0p94PBY21JU
+**Google:** https://youtu.be/0p94PBY21JU  
 
-![Coffee](https://storage.googleapis.com/www-trabant-tech-com/BuyMeACoffee.png)
+## 
+
+![Screen](https://storage.googleapis.com/www-trabant-tech-com/Screen%20Shot%202022-05-06%20at%202.37.02%20PM.png)  
 
 ## Installation
 
@@ -23,6 +26,13 @@ Navigate to the root of the **python_callbox** folder and install the requiremen
 ```
 cd python_callbox/  
 pip3 install -r requirements.txt
+``` 
+
+To run the application, from  the root of the **python_callbox** folder execute the following command:
+  
+   
+```
+python3 main.py
 ``` 
 
 ## Configuration
